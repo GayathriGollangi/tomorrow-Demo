@@ -1,0 +1,13 @@
+package DateTime;
+
+import java.time.LocalDate;
+
+public class tomorrowDemo {
+public static void main(String[] args) {
+	LocalDate date = LocalDate.now(); 
+	LocalDate tomorrow = date.plusDays(1);
+	System.out.println("Tomorrow");
+	System.out.println(tomorrow);
+	
+}
+}
